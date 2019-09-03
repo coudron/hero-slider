@@ -144,6 +144,7 @@ The Slide component accepts the following props:
 | shouldRenderMask | `boolean` | `false` | Each slide has a "Mask" that serves as an adornment. They mimic the background, then offsets it a bit, and animate during slide transitions. |
 | background | `object` | (Shown below) | The background settings. You may pass CSS background properties just like you would style the background of an HTML element. The main difference is that the `backgroundImage` property will work just like an image tag `src` property instead of the typical background image URL. More information about these settings below this table. |
 | navDescription | `string` | `null` | If the developer is using a MenuNav or ButtonsNav component, a description for each slide may be passed. These descriptions will be shown in the nav components. |
+| classNames | `string` | `null` | CSS class names for the slide content `div`. |
 | style | React.CSSProperties | `null` | Inline CSS styling for the wrapper div element of the component. |
 | onBackgroundLoad | (event: React.SyntheticEvent) => any | `null` | Callback that executes when the background image loads. |
 | children | `any` | `null` | React children. |
