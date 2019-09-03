@@ -13,4 +13,5 @@ export interface ISlideProps {
   style: React.CSSProperties;
   onBackgroundLoad: TAnyFunction;
   children: React.ReactChildren;
+  classNames: string;
 }
