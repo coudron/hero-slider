@@ -1,3 +1,5 @@
+This is a fork from [rmolinamir/hero-slider](https://github.com/rmolinamir/hero-slider). I needed to make some small changes to the container classes.
+
 # hero-slider
 
 > A hero slider component inline with how you would expect most React components to work. Includes autoplay, lazy loaded backgrounds, support for touch swiping and direction to change slides, multiple navs, settings, memoization, event callbacks, among other features.
